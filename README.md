@@ -4,7 +4,12 @@ Sprite Chat is an Airtable Block that will bring your chat room to life in a 2D 
 
 ## Getting Started
 
-To get your own block up and running, you will need to first create your own Airtable account and create a new base with a Table named "Chat Log". This table should have three Columns - "Message" (Long Text Type), "UserName" (Created by Type), and "TimeStamp" (Created time Type). 
+To use the Sprite Chat block, ensure that your base has a table called 'Chat Log' , with the following 3 fields:
+- UserName (collaborator field)
+- Message (text field)
+- TimeStamp (datetime field)
+
+Make sure the capitalization is correct for each!
 
 Then Follow the instructions listed [here](https://airtable.com/developers/blocks/guides/run-in-multiple-bases)
 
